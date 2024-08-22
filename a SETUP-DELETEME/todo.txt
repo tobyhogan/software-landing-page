@@ -1,0 +1,3 @@
+- to host on github pages properly: update site url variables in gatsby-config.ts, gh-pages builds and linking images usually fail until you fix this
+
+

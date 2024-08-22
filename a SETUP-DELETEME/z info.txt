@@ -1,0 +1,2 @@
+- google analytics can be setup by installing the gtag-gatsby-plugin plugin
+- 
