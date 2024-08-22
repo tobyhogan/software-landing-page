@@ -32,7 +32,7 @@ function Header() {
 
   useEffect(() => {
 
-    document.body.classList.add('gradient1')
+    document.body.classList.add('minimal1')
 
 
     if (!localStorage.getItem("theme")) {
@@ -141,7 +141,7 @@ function Header() {
   return (
     
     <header className="NavBar flex justify-between fixed w-full">
-      <Link to='/' className='Link1 ml-[5vw] pt-3 pb-4'>Project Title</Link>
+      <Link to='/' className='Link1 ml-[5vw] pt-3 pb-4'>Kazen Software</Link>
 
       <div className="flex flex-row">
 
@@ -158,27 +158,6 @@ function Header() {
           </ul>
 
         </div>
-          {
-          
-            /*
-            ===
-            ===
-          
-            BELOW IS THE DARK MODE / LIGHT MODE TOGGLER, THIS CAN BE REMOVED OR KEPT AS NEEDED
-          
-            ===
-            ===
-            */
-          
-            <div className="w-fit h-fit rounded-lg px-2 py-1 mt-6 flex flex-row">
-              <p className="mr-4">Selected Theme:</p>
-              <select className="rounded-md" id="theme-select">
-                <option value="minimal1">Minimal 1</option>
-                <option value="gradient1">Gradient 1</option>
-          
-              </select>
-            </div>
-            }
         
         <div className="ToggleNav">
 
